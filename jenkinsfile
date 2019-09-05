@@ -1,5 +1,6 @@
 node {
     stage('Build') {
+    git 'https://github.com/gsairam27/GitPractice'
         sh 'echo "Hello World"'
         sh '''
             echo "Multiline shell steps works too"
